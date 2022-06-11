@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".map">
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/amao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></ImageView>
+
+    <ImageView
+        android:id="@+id/put5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="4dp"
+        android:scaleX="-1"
+        android:background="@drawable/put"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/put3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="532dp"
+        android:background="@drawable/put"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="963dp"
+        android:layout_height="69dp"
+        android:background="#6E9CD2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"></ImageView>
+
+    <Button
+        android:id="@+id/bt54"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/round_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Date:14.10.19
+Distance:1,4km
+Minutes:03:04m"
+        android:textSize="8dp"
+        android:textColor="#6E9CD2"/>
+
+    <ImageView
+        android:id="@+id/put"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="236dp"
+        android:background="@drawable/put"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/put2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="344dp"
+        android:background="@drawable/put"
+        android:scaleX="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
